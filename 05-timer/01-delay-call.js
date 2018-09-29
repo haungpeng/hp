@@ -17,4 +17,4 @@ var b=new Bomb();
 
 var timerID=setTimeout(b.explode.bind(b),2000);
 
-clearTimeout(timerID);
+//clearTimeout(timerID);

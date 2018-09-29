@@ -7,5 +7,6 @@ process.on('SIGINT',()=>{
 });
 
 process.on('SIGTSTP',()=>{
-  console.log('you have pressed ctrl+D');
+  console.log('you have pressed ctrl+Z');
 });
+
