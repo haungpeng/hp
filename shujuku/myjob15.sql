@@ -694,6 +694,31 @@ INSERT INTO `sweet_cake` VALUES ('红糖枣糕','assets/imgs/美食/cake/红糖�
 UNLOCK TABLES;
 
 --
+-- Table structure for table `sweet_step`
+--
+
+DROP TABLE IF EXISTS `sweet_step`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sweet_step` (
+  `id` text,
+  `name` text,
+  `steppics` text,
+  `stepnames` text,
+  `stepcontents` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `sweet_step`
+--
+
+LOCK TABLES `sweet_step` WRITE;
+/*!40000 ALTER TABLE `sweet_step` DISABLE KEYS */;
+/*!40000 ALTER TABLE `sweet_step` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `user`
 --
 
@@ -832,4 +857,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-12-11 14:31:29
+-- Dump completed on 2018-12-11 14:40:05
